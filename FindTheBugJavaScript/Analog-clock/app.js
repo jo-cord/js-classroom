@@ -12,7 +12,7 @@ function getAngle() {
 
   // angle of rotation of hands, one rotation = 360
   let hrHandRotation = 30 * hours;
-  let minHandRotation = 6 * minutes;
+  let minHandRotation = 60 * minutes;
   let secHandRotation = 60 * seconds;
 
   //now rotate the hands
