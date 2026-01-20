@@ -22,7 +22,7 @@ function checkCategory(value) {
     if (value >= 30.0) {
       bmiCategoryElem.style.color = "#b00";
       bmiElem.style.color = "#b00";
-      bmiCategoryElem.style.borderColor = "#b00";
+      bmiElem.style.borderColor = "#b00";
       return `Obese`;
     } else if (value >= 25.0 && value <= 29.9) {
       bmiCategoryElem.style.color = "#8a4f02";
